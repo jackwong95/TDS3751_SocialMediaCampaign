@@ -1,0 +1,179 @@
+body
+{
+	background-color: #212121;
+}
+/* 1366 x 768 resolution is standard for most laptops */
+#dashboard_container
+{
+	width: 1920px;
+	height: 900px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#dashboard_header
+{
+	width: 100%;
+	height: 50px;
+	background-color: #424242;
+	cursor: pointer;
+}
+
+#dashboard_text_container
+{
+	padding-top: 12px;
+	padding-left: 25px;
+}
+
+#dashboard_text
+{
+	font-size: 25px;
+}
+
+#bc_fb_container
+{
+	/*width:635px;
+	height: 275px;
+	*/
+	width: 910px;
+	height: 400px;
+}
+
+#bc_mal_container
+{
+	/*width:635px;
+	height: 275px;
+	*/
+	width: 910px;;
+}
+
+#fb_gb_container
+{
+	width:540px;
+	height: 400px;
+	overflow: hidden; /* required */
+	position: relative; /* required  for demo*/
+}
+
+#tw_gb_container
+{
+	width:540px;
+	height: 400px;
+	overflow: hidden; /* required */
+	position: relative; /* required  for demo*/
+} 
+
+.ribbon_parent {
+  overflow: hidden; /* required */
+  width: 50%; /* for demo only */
+  height: 250px /* some non-zero number */;
+  margin: 25px auto; /* for demo only */
+  border:1px solid grey; /* for demo only */
+  position: relative; /* required  for demo*/
+}
+
+.ribbon {
+  margin: 0;
+  padding: 0;
+  background: rebeccapurple;
+  color:white;
+  padding:1em 0;
+  position: absolute;
+  top:0;
+  right:0;
+  transform: translateX(30%) translateY(0%) rotate(45deg);
+  transform-origin: top left;
+}
+.ribbon:before,
+.ribbon:after {
+  content: '';
+  position: absolute;
+  top:0;
+  margin: 0 -1px; /* tweak */
+  width: 100%;
+  height: 100%;
+  background: rebeccapurple;
+}
+.ribbon:before {
+  right:100%;
+}
+
+.ribbon:after {
+  left:100%;
+}
+
+#wc_container
+{
+	width: 710px;
+	height: 120px;
+}
+
+#sl_new_fn
+{
+	width: 350px;
+	height: 100px;
+}
+
+#sl_new_fol
+{
+	width: 350px;
+	height: 110px;
+	margin-left: 10px;
+}
+
+#er_fb
+{
+	width: 350px;
+	height: 110px;
+}
+
+#er_tw
+{
+	width: 350px;
+	height: 110px;
+	margin-left: 10px;
+}
+
+#bc_tw_chart_container
+{
+	width: 910px;
+	height: 400px;
+}
+
+.graph_container
+{
+	background-color: #ECEFF1;
+}
+
+.bc_outer_wrapper
+{
+}
+
+.content_container
+{
+	margin-top: 30px;
+	margin-left: 30px;
+	background-color: #616161;
+	float: left;
+}
+.content_header_container
+{
+	background-color: #424242;
+}
+.content_header_txt_container
+{
+	height: 40px;
+	padding-top: 12px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	font-size: 20px;
+}
+.content_header_txt_container a, #dashboard_text
+{
+	font-family: 'Arimo', san-serif;
+	color: #BDBDBD;
+}

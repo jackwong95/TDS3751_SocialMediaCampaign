@@ -1,0 +1,11 @@
+entity,pos,neg,neu,pos_proportion,neg_proportion
+malindo air,14,31,1311,0.3111111111111111,0.6888888888888889
+customer service,4,13,423,0.23529411764705882,0.7647058823529411
+departure,0,3,69,0.0,1.0
+flight,2,6,360,0.25,0.75
+baggage,1,4,99,0.2,0.8
+airport,0,5,206,0.0,1.0
+service,0,2,49,0.0,1.0
+book,0,4,201,0.0,1.0
+time,1,1,15,0.5,0.5
+price,0,1,73,0.0,1.0
