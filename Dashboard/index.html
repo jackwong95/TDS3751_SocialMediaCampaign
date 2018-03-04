@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 
+<!-- apologies in advance for the messy code, I created this dashboard in less than a day -->
+<!-- due to having too many assignments and things to do -->
+
 <head>
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<meta content="utf-8" http-equiv="encoding">
@@ -23,7 +26,7 @@
 <body>
 	
 	<div id="dashboard_container">
-		<div id="dashboard_header" onclick="location.href='https://www.malindoair.com/';">
+		<div id="dashboard_header" onclick="location.href='https://github.com/jackwong95/TDS3751_SocialMediaCampaign';">
 			<div id="dashboard_text_container">
 				<a id="dashboard_text">
 					Malindo Airlines Dashboard
@@ -421,8 +424,6 @@
 		var svg_location = "#wc_svg";
 		var width = 700;
 		var height = 65;
-		
-
 		
 		d3.csv("./data/entity_frequency.csv", function(err, input) {
 			if(err) throw err;
