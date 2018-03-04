@@ -1,6 +1,6 @@
 # TDS3751_SocialMediaCampaign
 
-Social Media Campaign dashboard, dataset is collected from MalindoAir.
+Social Media Campaign dashboard, dataset is collected from scraping MalindoAir's Facebook and Twitter.
 
 I do not take full credit of all the work done, as it was a four person assignment.
 
